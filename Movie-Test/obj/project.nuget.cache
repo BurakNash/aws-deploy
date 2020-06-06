@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/S+GOQCJtLQDGRctocXL6s41Z1jC7XP4Zd1CYiIPwHnbwYzCUHm5/EgUYzZfu5tp0on04PFBQnVhSVZec36zHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\burak\\Desktop\\aws-lambda\\Movie-Test\\Movie-Test\\Movie-Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\burak\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.0\\amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
