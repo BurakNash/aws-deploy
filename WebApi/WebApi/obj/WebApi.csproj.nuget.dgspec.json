@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burak\\Desktop\\WebApi\\WebApi\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\burak\\Desktop\\aws-lambda\\WebApi\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burak\\Desktop\\WebApi\\WebApi\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\burak\\Desktop\\aws-lambda\\WebApi\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\Desktop\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\burak\\Desktop\\aws-lambda\\WebApi\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\burak\\Desktop\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\burak\\Desktop\\aws-lambda\\WebApi\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\Desktop\\WebApi\\WebApi\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\burak\\Desktop\\aws-lambda\\WebApi\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.ElasticBeanstalk": {
+              "target": "Package",
+              "version": "[3.3.102.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

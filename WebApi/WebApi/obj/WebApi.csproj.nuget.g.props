@@ -12,4 +12,8 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\burak\.nuget\packages\awssdk.core\3.3.107.10</PkgAWSSDK_Core>
+    <PkgAWSSDK_ElasticBeanstalk Condition=" '$(PkgAWSSDK_ElasticBeanstalk)' == '' ">C:\Users\burak\.nuget\packages\awssdk.elasticbeanstalk\3.3.102.2</PkgAWSSDK_ElasticBeanstalk>
+  </PropertyGroup>
 </Project>
